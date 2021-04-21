@@ -27,13 +27,6 @@
         ivy-re-builders-alist '((t . ivy--regex-ignore-order)))
   (ivy-posframe-mode 1))
 
-(use-package counsel
-  :after (ivy)
-  :bind (("M-x" . counsel-M-x)
-         ("C-x C-f" . counsel-find-file)
-         ("C-c f" . counsel-recentf)
-         ("C-c g" . counsel-git)))
-
 (use-package swiper
   :after ivy
   :bind (("C-s" . swiper)
@@ -83,10 +76,7 @@
   :ensure t
   :config
   (evil-leader/set-leader "<SPC>")
-  (evil-leader/set-key "ww" 'save-buffer)
-  (evil-leader/set-key "wn" 'evil-window-next)
-  (evil-leader/set-key "wq" 'evil-window-delete)
-  (evil-leader/set-key "wp" 'evil-window-prev)
+  (evil-leader/set-key "w" 'save-buffer)
   (evil-leader/set-key "bm" 'buffer-menu-other-window)
   (evil-leader/set-key "bb" 'next-buffer)
   (evil-leader/set-key "bp" 'previous-buffer)
