@@ -1,12 +1,18 @@
 
-;;
+;; emacs init start
 
+;; add path
 (add-to-list 'load-path
-	     (expand-file-name (concat user-emacs-directory "lisp")))
+	     (expand-file-name "lisp" user-emacs-directory))
 
+
+;; use init files
+(require 'init-base)
 (require 'init-elpa)
-(require 'init-pkg)
-(require 'init-startup)
 (require 'init-ui)
+
+;; package
+(require 'init-pkg)
+(require 'init-company)
 (require 'init-evil)
-(require 'init-org)
+(require 'init-evil-leader)
