@@ -1,0 +1,35 @@
+#+TITLE: Scott Wang's Emacs Config
+#+LANGUAGE: en
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+
+This configuration is kind of a most simplest config file.
+It use Vi key binding.
+
+* Installation
+
+** Quick Installation
+
+=git clone https://github.com/hahaws/.emacs.d.git ~/.emacs.d=
+
+Before clone this config, You should make a backup of your original configuration.
+
+* Used Packages
+- company
+- evil
+- evil-leader
+- ivy
+- restart-emacs
+- which-key
+
+* Some Key Binding
+
+  | key         | Feature         |
+  | Ctrl-a(N/I) | begin-of-line   |
+  | Ctrl-e(N/I) | end-of-line     |
+  | <SPC>w      | save-buffer     |
+  | <SPC>q      | kill-buffer     |
+  | <SPC>bm     | buffer-menu     |
+  | <SPC>bb     | next-buffer     |
+  | <SPC>bp     | previous-buffer |
+  
+  
