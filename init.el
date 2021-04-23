@@ -21,3 +21,4 @@
 
 ;; after require package
 (require 'init-kbd)
+(require 'init-dired)
