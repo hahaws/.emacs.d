@@ -8,7 +8,9 @@
   (evil-leader/set-key "q" 'kill-buffer)
   (evil-leader/set-key "bm" 'buffer-menu-other-window)
   (evil-leader/set-key "bb" 'next-buffer)
-  (evil-leader/set-key "bm" 'previous-buffer))
+  (evil-leader/set-key "bp" 'previous-buffer)
+  (evil-leader/set-key "a" 'evil-beginning-of-visual-line)
+  (evil-leader/set-key "e" 'evil-end-of-visual-line))
 
 (global-evil-leader-mode)
 
