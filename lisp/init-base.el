@@ -37,4 +37,8 @@
 ;; close bell
 (setq ring-bell-function 'ignore)
 
+(autoload 'View-scroll-half-page-forward "view")
+
+(autoload 'View-scroll-half-page-forward "view")
+
 (provide 'init-base)
